@@ -3,7 +3,6 @@ title: Welcome to My Blog
 date: 2026-07-24 10:00:00 +0800
 categories: [General]
 tags: [intro]     # TAG names should always be lowercase
-pin: true
 ---
 
 Welcome! 👋 This is the first post on my new blog.
@@ -21,5 +20,5 @@ part is that writing a new post is as simple as adding a Markdown file.
 
 ## What's next
 
-Check out the [next post]({% post_url 2026-07-24-how-to-write-a-new-post %}) to
-see exactly how new posts get published. Thanks for stopping by!
+Check out the "How to Write a New Post" guide to see exactly how new posts
+get published. Thanks for stopping by!
