@@ -30,9 +30,9 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # submodules: true
-          # If using the 'assets' git submodule from Chirpy Starter, uncomment above
-          # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
+          # Required for the self-hosted static assets in `assets/lib`
+          # (See: https://github.com/cotes2020/chirpy-static-assets)
+          submodules: true
 
       - name: Setup Pages
         id: pages
